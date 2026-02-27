@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-GYM Fitness Pontianak – Gym Terbaik & Komunitas Terkuat</title>
+    <meta name="description" content="Gym modern di Pontianak. Peralatan lengkap, kelas Zumba, HIIT, & Sauna. Gabung komunitas terkuat di Hamilton Garden. 4.6★ Google Rating.">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root { --kgym-red: #FF0000; --kgym-orange: #FF6600; }
+        body { font-family: 'Montserrat', sans-serif; background-color: #000; color: #fff; scroll-behavior: smooth; }
+        h1, h2, h3, .nav-link { font-family: 'Bebas Neue', cursive; letter-spacing: 1px; }
+        .bg-gradient-kgym { background: linear-gradient(135deg, var(--kgym-red) 0%, var(--kgym-orange) 100%); }
+        .btn-pulse { animation: pulse 2s infinite; }
+        @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.05); } 100% { transform: scale(1); } }
+        .glass-card { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .lang-hidden { display: none; }
+    </style>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ExerciseGym",
+      "name": "K-GYM Fitness Pontianak",
+      "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Komplek Hamilton Garden, Jl. Parit H. Husin II",
+        "addressLocality": "Pontianak",
+        "addressRegion": "Kalimantan Barat",
+        "postalCode": "78124",
+        "addressCountry": "ID"
+      },
+      "geo": { "@type": "GeoCoordinates", "latitude": -0.0612, "longitude": 109.3440 },
+      "telephone": "+6281241765376",
+      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.6", "reviewCount": "71" }
+    }
+    </script>
+</head>
+<body class="overflow-x-hidden">
+
+    <nav class="fixed top-0 w-full z-50 glass-card py-3 px-6 flex justify-between items-center">
+        <div class="text-2xl font-bold text-white tracking-tighter">K-GYM<span class="text-red-600">FITNESS</span></div>
+        <div class="hidden md:flex space-x-8">
+            <a href="#home" class="nav-link text-xl hover:text-red-500 transition">HOME</a>
+            <a href="#pricing" class="nav-link text-xl hover:text-red-500 transition">MEMBERSHIP</a>
+            <a href="#classes" class="nav-link text-xl hover:text-red-500 transition">CLASSES</a>
+            <a href="#gallery" class="nav-link text-xl hover:text-red-500 transition">GALLERY</a>
+        </div>
+        <div class="flex items-center space-x-4">
+            <button onclick="toggleLang()" class="border border-white px-2 py-1 text-xs font-bold hover:bg-white hover:text-black transition">ID | EN</button>
+            <a href="https://wa.me/6281241765376" class="bg-red-600 text-white px-5 py-2 font-bold text-sm hover:bg-red-700 transition">JOIN NOW</a>
+        </div>
+    </nav>
+
+    <section id="home" class="relative h-screen flex items-center justify-center text-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=2070" class="w-full h-full object-cover opacity-50 scale-105" alt="Gym Interior">
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black"></div>
+        </div>
+        
+        <div class="relative z-10 px-4">
+            <h1 class="text-6xl md:text-9xl font-bold italic mb-4">
+                <span class="lang-id">BANGUN KEKUATANMU!</span>
+                <span class="lang-en lang-hidden">BUILD YOUR STRENGTH!</span>
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 font-light tracking-widest">
+                <span class="lang-id">GYM MODERN • KELAS SERU • KOMUNITAS TERKUAT DI PONTIANAK</span>
+                <span class="lang-en lang-hidden">MODERN GYM • EXCITING CLASSES • STRONGEST COMMUNITY</span>
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="https://wa.me/6281241765376" class="btn-pulse bg-red-600 text-white px-10 py-4 text-2xl font-bold hover:bg-white hover:text-red-600 transition">
+                    <span class="lang-id">DAFTAR SEKARANG</span>
+                    <span class="lang-en lang-hidden">JOIN NOW</span>
+                </a>
+                <a href="#classes" class="border-2 border-white px-10 py-4 text-2xl font-bold hover:bg-white hover:text-black transition">
+                    <span class="lang-id">JADWAL KELAS</span>
+                    <span class="lang-en lang-hidden">CLASS SCHEDULE</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-6 bg-black">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="glass-card p-8 text-center group hover:border-red-600 transition">
+                <i class="fas fa-dumbbell text-5xl text-red-600 mb-6"></i>
+                <h3 class="text-3xl mb-4 lang-id">ALAT MODERN</h3>
+                <h3 class="text-3xl mb-4 lang-en lang-hidden">MODERN EQUIPMENT</h3>
+                <p class="text-gray-400 lang-id">Cardio & Weight area lengkap dengan standar internasional.</p>
+                <p class="text-gray-400 lang-en lang-hidden">Full cardio & weight area with international standards.</p>
+            </div>
+            <div class="glass-card p-8 text-center group border-red-600 transition">
+                <i class="fas fa-users text-5xl text-red-600 mb-6"></i>
+                <h3 class="text-3xl mb-4 lang-id">KOMUNITAS</h3>
+                <h3 class="text-3xl mb-4 lang-en lang-hidden">COMMUNITY</h3>
+                <p class="text-gray-400 lang-id">Lingkungan suportif yang memotivasi target fitness Anda.</p>
+                <p class="text-gray-400 lang-en lang-hidden">Supportive environment to motivate your fitness goals.</p>
+            </div>
+            <div class="glass-card p-8 text-center group hover:border-red-600 transition">
+                <i class="fas fa-hot-tub text-5xl text-red-600 mb-6"></i>
+                <h3 class="text-3xl mb-4 lang-id">SAUNA NYAMAN</h3>
+                <h3 class="text-3xl mb-4 lang-en lang-hidden">PREMIUM SAUNA</h3>
+                <p class="text-gray-400 lang-id">Relaksasi maksimal setelah latihan keras di K-GYM.</p>
+                <p class="text-gray-400 lang-en lang-hidden">Maximum relaxation after a hard workout at K-GYM.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="py-20 bg-neutral-900 px-6">
+        <h2 class="text-5xl text-center mb-16 underline decoration-red-600">
+            <span class="lang-id">PAKET MEMBERSHIP</span>
+            <span class="lang-en lang-hidden">MEMBERSHIP PLANS</span>
+        </h2>
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-4">
+            <div class="bg-black p-6 border-t-4 border-gray-500 flex flex-col justify-between">
+                <div>
+                    <h4 class="text-xl mb-2">DAILY PASS</h4>
+                    <p class="text-4xl font-bold text-red-600 mb-6">Rp 35rb<span class="text-sm text-white">/Visit</span></p>
+                </div>
+                <a href="https://wa.me/6281241765376" class="w-full py-2 bg-white text-black font-bold text-center hover:bg-red-600 hover:text-white transition">BUY NOW</a>
+            </div>
+            <div class="bg-black p-6 border-t-4 border-red-600 transform scale-105 z-10 shadow-2xl flex flex-col justify-between">
+                <span class="bg-red-600 text-xs px-2 py-1 absolute -top-3 right-4 font-bold">POPULAR</span>
+                <div>
+                    <h4 class="text-xl mb-2">1 MONTH</h4>
+                    <p class="text-4xl font-bold text-red-600 mb-6">Promo!</p>
+                    <ul class="text-sm space-y-2 mb-6">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i> Free All Classes</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i> Full Gym Access</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i> Free Sauna</li>
+                    </ul>
+                </div>
+                <a href="https://wa.me/6281241765376" class="w-full py-2 bg-red-600 text-white font-bold text-center">GABUNG SEKARANG</a>
+            </div>
+            <div class="bg-black p-6 border-t-4 border-gray-500 flex flex-col justify-between">
+                <div>
+                    <h4 class="text-xl mb-2">3 MONTHS</h4>
+                    <p class="text-4xl font-bold text-red-600 mb-6">SAVE 15%</p>
+                </div>
+                <a href="https://wa.me/6281241765376" class="w-full py-2 bg-white text-black font-bold text-center">CLAIM PROMO</a>
+            </div>
+            <div class="bg-black p-6 border-t-4 border-gray-500 flex flex-col justify-between">
+                <div>
+                    <h4 class="text-xl mb-2">12 MONTHS</h4>
+                    <p class="text-4xl font-bold text-red-600 mb-6">BEST VALUE</p>
+                </div>
+                <a href="https://wa.me/6281241765376" class="w-full py-2 bg-white text-black font-bold text-center">INQUIRE NOW</a>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/6281241765376" class="fixed bottom-6 right-6 z-[100] bg-green-500 p-4 rounded-full shadow-lg hover:bg-green-600 transition scale-110">
+        <i class="fab fa-whatsapp text-4xl text-white"></i>
+    </a>
+
+    <footer class="bg-black pt-20 pb-10 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+            <div>
+                <h3 class="text-3xl mb-6">K-GYM PONTIANAK</h3>
+                <p class="text-gray-400 mb-4">Komplek Hamilton Garden, Jl. Parit H. Husin II, Bangka Belitung Darat, Kec. Pontianak Tenggara.</p>
+                <div class="flex space-x-4 text-2xl">
+                    <a href="#" class="hover:text-red-600"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="hover:text-red-600"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="hover:text-red-600"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-3xl mb-6 lang-id">JAM OPERASIONAL</h3>
+                <h3 class="text-3xl mb-6 lang-en lang-hidden">OPERATING HOURS</h3>
+                <ul class="text-gray-400 space-y-2">
+                    <li class="flex justify-between border-b border-gray-800 pb-1"><span>Mon - Fri</span> <span>06:00 - 22:00</span></li>
+                    <li class="flex justify-between border-b border-gray-800 pb-1"><span>Sat - Sun</span> <span>07:00 - 20:00</span></li>
+                </ul>
+            </div>
+            <div class="h-64 rounded-lg overflow-hidden grayscale hover:grayscale-0 transition duration-500">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.8159!2d109.3440!3d-0.0612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d599c9c!2sK-Gym!5e0!3m2!1sen!2sid!4v1700000000000" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <p class="text-center text-gray-600 text-sm">© 2026 K-GYM Fitness Pontianak. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function toggleLang() {
+            const ids = document.querySelectorAll('.lang-id');
+            const ens = document.querySelectorAll('.lang-en');
+            ids.forEach(el => el.classList.toggle('lang-hidden'));
+            ens.forEach(el => el.classList.toggle('lang-hidden'));
+        }
+    </script>
+</body>
+  </html>
+  
